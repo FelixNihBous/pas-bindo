@@ -1,0 +1,41 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #77CDFF;
+    display: flex;
+    height: 70px;
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: none;
+    border: solid 1px none;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+
+    p {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        font-size: 18px;
+
+    }
+}
+
+.listitem {
+    display: flex;
+    justify-content: space-between; /* Add space between links */
+}
+
+.listitem a {
+    margin: 0 10px; /* Add 10px margin on both sides of each link */
+}

@@ -1,0 +1,12 @@
+.buttonlets {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+}
+
+.buttonlets:hover {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  background-color: #F95454;
+}
