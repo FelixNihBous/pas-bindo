@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Homepage from './Homepage';
 import Newpage from './Newpage';
+import Aboutme from './Aboutme'
 import './App.css';
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/Newpage"
+        <Route path="/newpage"
           element={<Newpage />} />
+        <Route path="/aboutme"
+          element={<Aboutme />} />
       </Routes>
     </BrowserRouter>
   );

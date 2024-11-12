@@ -10,8 +10,8 @@ function Homepage() {
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 3 }}
     >
-      <h1>Welcome to the Home Page of this Project</h1>
-      <Link to="/Newpage">
+      <h1>Welcome to the Start Page of this Project</h1>
+      <Link to="/newpage">
         <button className='gobutton'>Let's Go</button>
       </Link>
     </motion.div>
