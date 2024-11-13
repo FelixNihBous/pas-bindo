@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.imagegrid {
+    height: 100px;
+}
+
+.mainbody {
+    display: grid;
+    padding-top: 1000px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 0 20px;
+    padding-top: 10px;
+    padding-top: 30px;
+}
+
+.imagegrid {
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 10px;
+    img {
+        object-fit: contain;
+        height: 100%;
+    }
+}
+
+.gridcontainer {
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.gridcontainer:hover {
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+    gap: 30px;
+    text-align: center;
+    cursor: pointer;
+
+    /* img {
+        transform: scale(1.1);
+        transition: ease-in-out 0.5s;
+    } */
+}
+

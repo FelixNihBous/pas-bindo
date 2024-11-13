@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './Homepage.css'
+import './css/Homepage.css'
 import { motion } from 'framer-motion';
 
 function Homepage() {

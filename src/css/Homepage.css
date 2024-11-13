@@ -1,15 +1,23 @@
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .homepage {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     height: 100vh;
+    background-color: black;
 }
 
 .gobutton {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
+    background-color: lightgray;
+    color: white;
 }
 
 .gobutton:hover {
@@ -17,4 +25,5 @@
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     background-color: #F95454;
+    color: white;
 }

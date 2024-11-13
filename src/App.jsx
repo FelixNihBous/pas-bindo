@@ -1,22 +1,25 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 import Homepage from './Homepage';
 import Newpage from './Newpage';
 import Aboutme from './Aboutme'
-import './App.css';
+import './css//App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/newpage"
-          element={<Newpage />} />
-        <Route path="/aboutme"
-          element={<Aboutme />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/newpage"
+            element={<Newpage />} />
+          <Route path="/aboutme"
+            element={<Aboutme />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
