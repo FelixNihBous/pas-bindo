@@ -26,7 +26,72 @@ function Newpage({ isOpen, onClose, children }) {
                     <div className='imagegrid'></div>
                     <div className='textgrid'>asdasdasd</div>
                 </div>
+                <div className='gridcontainer'>
+                    <a href='https://google.com/'>
+                        <div className='imagegrid'>
+                            <img src={dogImage} className=''></img>
+                        </div>
+                        <div className='textgrid'>asdasdasd</div>
+                    </a>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <a href='https://google.com/'>
+                        <div className='imagegrid'>
+                            <img src={dogImage} className=''></img>
+                        </div>
+                        <div className='textgrid'>asdasdasd</div>
+                    </a>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <a href='https://google.com/'>
+                        <div className='imagegrid'>
+                            <img src={dogImage} className=''></img>
+                        </div>
+                        <div className='textgrid'>asdasdasd</div>
+                    </a>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <a href='https://google.com/'>
+                        <div className='imagegrid'>
+                            <img src={dogImage} className=''></img>
+                        </div>
+                        <div className='textgrid'>asdasdasd</div>
+                    </a>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
+                <div className='gridcontainer'>
+                    <div className='imagegrid'></div>
+                    <div className='textgrid'>asdasdasd</div>
+                </div>
             </div>
+
         </>
     );
 }

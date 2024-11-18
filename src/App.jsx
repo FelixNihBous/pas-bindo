@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}> 
           <Route path="/" element={<Homepage />} />
           <Route path="/newpage"
             element={<Newpage />} />
