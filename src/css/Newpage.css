@@ -1,64 +1,78 @@
-body {
-    height: 100vh;
+.mainbody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+    justify-content: center; /* Center the grid horizontally */
+    margin: 20px;
 
     a {
         text-decoration: none;
         color: black;
     }
-}
-
-#root {
-    padding-bottom: 50px;
-}
-
-.imagegrid {
-    height: 100px;
-}
-
-.mainbody {
-    display: grid;
-    padding-top: 1000px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin: 0 20px;
-    padding-top: 10px;
-    padding-top: 30px;
-}
-
-.imagegrid {
-    border: solid 1px black;
-    border-radius: 10px;
-    margin: 10px;
-    img {
-        object-fit: contain;
-        height: 100%;
-    }
-}
-
-.gridcontainer {
-    border: solid 1px black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  }
+  
+  .gridcontainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
     text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    height: 200px; /* Adjust the height as needed */
+  }
+
+.gridcontainer:hover {
+    transform: scale(1.05);
+}
+
+.imagegrid {
+    height: 150px;
     overflow: hidden;
 }
 
-.gridcontainer:hover {
-    border: solid 1px black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    transform: scale(1.05);
-    transition: ease-in-out 0.5s;
-    gap: 30px;
-    text-align: center;
-    cursor: pointer;
-
-    /* img {
-        transform: scale(1.1);
-        transition: ease-in-out 0.5s;
-    } */
+.imagegrid img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
+.textgrid {
+    padding: 10px;
+}
+
+.story-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    max-height:
+        80%;
+    /* Adjust this value as needed */
+    overflow-y: auto;
+    /* Ensure popup is above other elements */
+}
+
+.story-popup button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 998;
+    /* Ensure overlay is below the popup */
+}
