@@ -17,6 +17,7 @@ function Aboutme() {
                 <Header />
                 <div className='container'>
                     <img src={dogImage} className='dogimage'></img>
+                    <p>Halo nama saya Felix Tjong, saya saat ini Kelas 10 SMK dalam Jurusan RPL, Saya merupakan murid Sekoalah Tri Ratna</p>
                 </div>
             </motion.div>
 
