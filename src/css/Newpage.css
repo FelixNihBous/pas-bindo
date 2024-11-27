@@ -22,6 +22,7 @@
 
 .gridcontainer:hover {
     transform: scale(1.05);
+    background-color: #77CDFF;
 }
 
 .imagegrid {

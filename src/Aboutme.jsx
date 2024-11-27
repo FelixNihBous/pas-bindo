@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import './css/Aboutme.css'
 import Header from './Header.jsx'
 import dogImage from './assets/dog.jpg/';
+import myImage from './assets/myImage.jpg';
 
 
 function Aboutme() {
@@ -16,7 +17,7 @@ function Aboutme() {
             >
                 <Header />
                 <div className='container'>
-                    <img src={dogImage} className='dogimage'></img>
+                    <img src={myImage} className='dogimage'></img>
                     <p>Halo nama saya Felix Tjong, saya saat ini Kelas 10 SMK dalam Jurusan RPL, Saya merupakan murid Sekoalah Tri Ratna</p>
                 </div>
             </motion.div>
